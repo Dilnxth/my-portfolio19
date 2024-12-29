@@ -27,7 +27,7 @@ export const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
     try {
-      const response = await fetch("https://portfolio-backend-logs.vercel.app//contact", {
+      const response = await fetch("https://portfolio-backend-logs.vercel.app/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=utf-8",
