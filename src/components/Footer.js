@@ -17,7 +17,7 @@ export const Footer = () => {
           <Col xs={12} md={4} className="text-center">
             <div className="social-icons">
               <a
-                href="https://www.linkedin.com/feed/"
+                href="https://www.linkedin.com/in/dilneth-nanayakkara-19a8b1292?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BA5X4%2Fb7gR%2BCz9KmOjXAsvA%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -103,7 +103,7 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/dilneth-nanayakkara-19a8b1292?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BA5X4%2Fb7gR%2BCz9KmOjXAsvA%3D%3D" target="_blank" rel="noopener noreferrer">
                                 <img src={navIcon1} alt="LinkedIn" />
                             </a>
                             <a href="https://www.instagram.com/_d_i_l_n_e_t_h_x_/" target="_blank" rel="noopener noreferrer">
