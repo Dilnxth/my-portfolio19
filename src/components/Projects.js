@@ -25,6 +25,8 @@ import frontvw from "../assets/img/frontvw.jpg";
 import insidevw from "../assets/img/insidevw.jpg";
 import hyundairobo from "../assets/img/hyundairobo.jpg";
 import hansrobo from "../assets/img/hansrobo.jpg";
+import motoman from "../assets/img/motoman.jpg";
+import baterynx100 from "../assets/img/batterynx100.jpg";
 import capproj from "../assets/img/capproj.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -55,6 +57,8 @@ export const Projects = () => {
     { title: "Automated Tube Capping System", description: "This project showcases my skills in mechatronics and robotics, where we designed a custom 3D-printed gripper for the Hans Cobot, programmed for precise cap placement, and integrated pneumatic stoppers for accurate tube positioning. By resolving technical challenges, I delivered an efficient, scalable solution that improves precision and reduces manual labor in industrial automation.", imgUrl: capproj },
     { title: "Hyundai HH7 Robotic Arm with Kemppi A7", description: "This project reflects my proficiency in configuring industrial robotic arms like the Hyundai HH7 with the Kemppi A7 welding machine. My work focused on enhancing automation workflows, fine-tuning welding parameters, and ensuring consistent output in demanding industrial environments", imgUrl: hyundairobo },
     { title: "Hans Elfin5 Cobot with Kemppi Master M355", description: "Demonstrating my ability to program and deploy collaborative robots, this setup combines the Hans Elfin5 cobot with the Kemppi Master M355 welding machine. I optimized the system for precision welding tasks, ensuring safety and efficiency while maintaining high-quality results.", imgUrl: hansrobo },
+    { title: "Yaskawa Motoman NX100 Robot Servicing & Diagnostics", description: "Highlighting my skills in robotic maintenance and programming, this project involved servicing a Yaskawa Motoman NX100 robot. I performed comprehensive I/O checks, replaced backup batteries, and validated all-axis movements through a custom test program to ensure precise and reliable operation.", imgUrl: motoman },
+    { title: "Battery Replacement on Yaskawa Motoman NX100", description: "Performed essential maintenance on the Yaskawa Motoman NX100 by replacing its backup batteries. Ensuring a steady power supply to the controller and encoder memory is crucial for preventing data loss and maintaining the robot’s operational efficiency. This task required precision and adherence to safety protocols.", imgUrl: baterynx100 },
   ];
 
   const projectsTab3 = [
