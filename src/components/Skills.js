@@ -11,6 +11,12 @@ import mt2 from "../assets/img/mt2.png";
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
+import RP from "../assets/img/RP.png";
+import MV from "../assets/img/MV.png";
+import ML from "../assets/img/ML.png";
+import Node_Red from "../assets/img/Node Red.png";
+import RoboDK from "../assets/img/RoboDK.png";
+
 
 // Custom Left Arrow
 const CustomLeftArrow = ({ onClick }) => (
@@ -68,7 +74,7 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-              Innovative problem-solver with expertise in robotics, 2D/3D design, and mechatronic system integration. 
+              Innovative problem-solver with expertise in Robotics, 2D/3D design, and mechatronic system integration. 
                 <br />
                 I am adept at
               </p>
@@ -96,8 +102,28 @@ export const Skills = () => {
                   <h5>Python</h5>
                 </div>
                 <div className="item">
+                  <img src={RoboDK} alt="Robo DK" />
+                  <h5>Robo DK</h5>
+                </div>
+                <div className="item">
+                  <img src={Node_Red} alt="Node Red" />
+                  <h5>Node Red</h5>
+                </div>
+                <div className="item">
+                  <img src={ML} alt="Machie Learning" />
+                  <h5>Machine Learning</h5>
+                </div>
+                <div className="item">
+                  <img src={MV} alt="Machie Vision" />
+                  <h5>Machine Vision</h5>
+                </div>
+                <div className="item">
                   <img src={plc1} alt="PLC Programming" />
                   <h5>PLC Programming</h5>
+                </div>
+                <div className="item">
+                  <img src={RP} alt="Robot Programming" />
+                  <h5>Robot Programming</h5>
                 </div>
                 <div className="item">
                   <img src={ee2} alt="Electrical Engineering" />
