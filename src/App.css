@@ -405,6 +405,428 @@ span.navbar-text {
 }
 
 
+/* Experience Section Styles */
+.experience {
+    padding: 80px 0;
+    position: relative;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+
+.experience-bx {
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+}
+
+.experience h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.experience p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 56%;
+}
+
+/* New Timeline Container */
+.timeline-container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+/* Timeline Row - Horizontal Layout */
+.timeline-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+/* Experience Card Container - Left Side */
+.experience-card-container {
+    flex: 1;
+    max-width: 45%;
+    position: relative;
+    margin-right: 20px;
+}
+
+/* Timeline Line - Center */
+.timeline-line {
+    width: 4px;
+    background: linear-gradient(180deg, #AA367C, #4A2FBD);
+    border-radius: 2px;
+    position: relative;
+    margin: 0 20px;
+    min-height: 100%;
+    align-self: stretch;
+}
+
+/* Media Container - Right Side */
+.media-container {
+    flex: 1;
+    max-width: 45%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+/* Timeline markers */
+.timeline-marker {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #AA367C;
+    border: 4px solid #4A2FBD;
+    top: 20px;
+    right: -32px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+/* Timeline content */
+.timeline-content {
+    padding: 25px 30px;
+    background: rgba(255, 255, 255, 0.05);
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(170, 54, 124, 0.3);
+}
+
+/* Timeline arrow pointing right */
+.timeline-content::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    border: 10px solid transparent;
+    border-left-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ========================= */
+/* Experience header styling */
+/* ========================= */
+.experience-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-header h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.experience-header h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.experience-header .location {
+    color: #B8B8B8;
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+/* Duration color improved */
+.duration {
+    color: #FFD700;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+/* ========================= */
+/* Experience text content   */
+/* ========================= */
+.experience-text {
+    text-align: left;
+}
+
+.experience-text .description {
+    color: #B8B8B8 !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    margin: 0 0 25px 0 !important;
+    text-align: left !important;
+    width: 100% !important;
+    max-width: none !important;
+    word-wrap: break-word !important;
+    white-space: normal !important;
+}
+
+/* Achievements */
+.achievements h5 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 25px 0 15px 0;
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+.achievements li {
+    color: #B8B8B8;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.achievements li::before {
+    content: '▶';
+    color: #AA367C;
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+    top: 2px;
+}
+
+/* Technologies */
+.technologies h5 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 25px 0 15px 0;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-tag {
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ========================= */
+/* Media Styling */
+/* ========================= */
+.media-item-wrapper {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.exp-media-item {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.exp-media-item:hover {
+    transform: scale(1.02);
+    border-color: #AA367C;
+    box-shadow: 0 8px 25px rgba(170, 54, 124, 0.4);
+}
+
+/* Video specific styling */
+video.exp-media-item {
+    height: auto;
+    min-height: 200px;
+}
+
+/* Image specific styling */
+img.exp-media-item {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ========================= */
+/* Responsive Design */
+/* ========================= */
+@media screen and (max-width: 992px) {
+    .timeline-row {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .experience-card-container {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .timeline-line {
+        display: none;
+    }
+    
+    .timeline-marker {
+        display: none;
+    }
+    
+    .timeline-content::after {
+        display: none;
+    }
+    
+    .media-container {
+        max-width: 100%;
+        margin-left: 0;
+        align-items: center;
+    }
+    
+    .exp-media-item {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .experience-bx {
+        padding: 40px 20px;
+        max-width: 95%;
+        margin-top: -40px;
+    }
+    
+    .experience h2 {
+        font-size: 32px;
+    }
+    
+    .experience p {
+        font-size: 16px;
+        width: 90%;
+    }
+    
+    .timeline-container {
+        max-width: 100%;
+        margin: 30px auto;
+    }
+    
+    .timeline-row {
+        margin-bottom: 40px;
+    }
+    
+    .timeline-content {
+        padding: 20px 25px;
+    }
+    
+    .experience-header h3 {
+        font-size: 20px;
+    }
+    
+    .experience-header h4 {
+        font-size: 16px;
+    }
+    
+    .duration {
+        font-size: 14px;
+    }
+    
+    .location {
+        font-size: 12px;
+    }
+    
+    .description {
+        font-size: 14px;
+    }
+    
+    .achievements h5,
+    .technologies h5 {
+        font-size: 16px;
+    }
+    
+    .achievements li {
+        font-size: 13px;
+    }
+    
+    .tech-tag {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    
+    .company-logo {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .experience-bx {
+        padding: 30px 15px;
+        border-radius: 32px;
+    }
+    
+    .experience h2 {
+        font-size: 28px;
+    }
+    
+    .experience p {
+        font-size: 14px;
+        width: 100%;
+    }
+    
+    .timeline-content {
+        padding: 15px 20px;
+    }
+    
+    .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .company-logo {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    
+    .exp-media-item {
+        height: 200px;
+    }
+    
+    video.exp-media-item {
+        min-height: 180px;
+    }
+}
 
 
 /************ Education Css ************/
@@ -689,42 +1111,157 @@ span.navbar-text {
   border-radius: 50px;
   background: rgba(255, 255, 255, 0.1);
   padding: 10px;
-  width: 90%; /* Adjusted for responsiveness */
-  max-width: 800px; /* Prevent it from becoming too wide */
+  width: 95%; /* Increased width to accommodate more tabs */
+  max-width: 1000px; /* Increased max-width for more tabs */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   display: flex; /* Ensure items are aligned */
   flex-wrap: wrap; /* Allow items to wrap for smaller screens */
-  gap: 10px; /* Add spacing between items */
+  gap: 8px; /* Reduced gap for more compact layout */
   justify-content: center; /* Center align items */
 }
 
 .project .nav-pills .nav-link {
   color: #fff;
-  font-size: 16px; /* Adjusted font size for smaller devices */
+  font-size: 14px; /* Reduced font size to fit more tabs */
   font-weight: 600;
-  padding: 10px 15px;
+  padding: 8px 12px; /* Reduced padding for more compact tabs */
   text-align: center;
-  border-radius: 30px;
+  border-radius: 25px; /* Slightly smaller border radius */
   transition: all 0.3s ease-in-out;
   background: rgba(255, 255, 255, 0.2);
   margin: 0; /* Remove horizontal margin for better alignment */
-  flex: 1 1 calc(50% - 10px); /* Allow two items per row on smaller screens */
-  max-width: 200px; /* Set a maximum width for each item */
+  flex: 1 1 calc(33.33% - 8px); /* Three items per row on medium screens */
+  max-width: 140px; /* Reduced maximum width for each item */
+  min-width: 100px; /* Minimum width to prevent too small tabs */
 }
 
 .project .nav-pills .nav-link:hover {
   background: linear-gradient(90deg, #AA367C, #4A2FBD);
   color: #fff;
-  transform: scale(1.1);
+  transform: scale(1.05); /* Reduced scale for subtler effect */
   box-shadow: 0 4px 10px rgba(170, 54, 124, 0.6);
 }
 
 .project .nav-pills .nav-link.active {
   background: linear-gradient(90deg, #AA367C, #4A2FBD);
   color: #fff;
-  border-radius: 30px;
+  border-radius: 25px;
   box-shadow: 0 4px 15px rgba(170, 54, 124, 0.8);
 }
+
+/* Project Header Styling - Full width utilization FIXED */
+.project-header {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 100vw; /* Use full viewport width */
+  max-width: none; /* Remove max-width constraint */
+  margin-left: calc(-50vw + 50%); /* Center and expand to full viewport */
+  margin-right: calc(-50vw + 50%); /* Center and expand to full viewport */
+  padding-left: max(15px, calc((100vw - 1200px) / 2)); /* Responsive padding */
+  padding-right: max(15px, calc((100vw - 1200px) / 2)); /* Responsive padding */
+}
+
+.time-period-location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Changed from center to flex-start */
+  gap: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* Time Period Styling */
+.time-period {
+  color: #FFD700;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Project Location Styling */
+.project-location {
+  color: #B8B8B8;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Project Description Styling - Full width utilization FIXED */
+.project-description {
+  width: 100%; /* Use full width */
+  margin-bottom: 15px;
+}
+
+.project-description p {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left; /* Left aligned as requested */
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Use full width */
+  max-width: none; /* Remove any max-width constraints */
+}
+
+/* Technologies Section Styling - Inline layout */
+.project-technologies {
+  width: 100%;
+}
+
+.technologies-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  text-align: left; /* Changed from center to left */
+}
+
+.technologies-title {
+  color: #B8B8B8; /* Changed from #FFD700 to match description color */
+  font-size: 16px;
+  font-weight: 500; /* Reduced from 600 */
+  margin: 0;
+  white-space: nowrap;
+}
+
+.technologies-separator {
+  color: #B8B8B8; /* Changed from #FFD700 */
+  font-size: 16px;
+  font-weight: 500; /* Reduced from 600 */
+  margin: 0;
+}
+
+.technologies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px; /* Reduced gap for inline layout */
+  align-items: center;
+  flex: 1; /* Take remaining space */
+}
+
+.tech-tag {
+  background: rgba(255, 255, 255, 0.1); /* Changed from gradient to subtle background */
+  color: #B8B8B8; /* Changed color to match theme */
+  padding: 2px 8px; /* Reduced padding for inline appearance */
+  border-radius: 4px; /* Much smaller border radius */
+  font-size: 14px; /* Increased font size for readability */
+  font-weight: 400; /* Normal weight */
+  white-space: nowrap;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Added subtle border */
+  transition: all 0.3s ease-in-out;
+}
+
+.tech-tag:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  transform: none; /* Removed transform for subtler effect */
+}
+
+/* Removed comma separators between tech tags */
 
 /* Project Cards */
 .proj-imgbx {
@@ -734,14 +1271,34 @@ span.navbar-text {
   margin-bottom: 30px;
 }
 
-.proj-imgbx img {
+.proj-imgbx img,
+.proj-imgbx .proj-video {
   width: 100%;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
 }
 
-/* Top-Down Transparent Slide Animation */
-.proj-imgbx::before {
+/* Video specific styling */
+.proj-video {
+  height: 250px; /* Set consistent height for videos */
+  object-fit: cover;
+}
+
+/* Remove hover effects from video containers */
+.proj-video-container::before {
+  display: none !important;
+}
+
+.proj-video-container:hover::before {
+  display: none !important;
+}
+
+.proj-video-container .proj-txtx {
+  display: none !important;
+}
+
+/* Top-Down Transparent Slide Animation (only for images) */
+.proj-imgbx:not(.proj-video-container)::before {
   content: "";
   position: absolute;
   top: -100%; /* Start above the card */
@@ -753,7 +1310,7 @@ span.navbar-text {
   z-index: 1;
 }
 
-.proj-imgbx:hover::before {
+.proj-imgbx:not(.proj-video-container):hover::before {
   top: 0; /* Slide into view */
 }
 
@@ -767,28 +1324,31 @@ span.navbar-text {
   z-index: 2; /* Ensure it appears above other elements */
   opacity: 0; /* Default hidden */
   transition: opacity 0.4s ease-in-out; /* Smooth fade-in for text */
+  padding: 20px; /* Add padding for better text readability */
 }
 
-.proj-imgbx:hover .proj-txtx {
+.proj-imgbx:not(.proj-video-container):hover .proj-txtx {
   opacity: 1; /* Make the description visible on hover */
 }
 
 /* Title Styling */
 .proj-txtx h4 {
-  font-size: 20px; /* Adjusted for responsiveness */
+  font-size: 18px; /* Adjusted for responsiveness */
   font-weight: bold;
   margin-bottom: 8px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
 }
 
 /* Description Styling */
 .proj-txtx span {
-  font-size: 14px; /* Adjusted for responsiveness */
+  font-size: 13px; /* Adjusted for responsiveness */
   line-height: 1.4;
   color: #ddd;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
 }
 
-/* Adjust card hover effect */
-.proj-imgbx:hover img {
+/* Adjust card hover effect (only for images) */
+.proj-imgbx:not(.proj-video-container):hover img {
   transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
@@ -801,6 +1361,59 @@ span.navbar-text {
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+  .project-header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .project-description p {
+    text-align: left; /* Keep left alignment on medium screens */
+    padding: 0;
+  }
+
+  .technologies-container {
+    flex-direction: row; /* Keep inline layout */
+    gap: 6px;
+  }
+
+  .technologies-separator {
+    display: inline; /* Keep separator visible */
+  }
+}
+
+@media (max-width: 992px) {
+  .project-header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .project .nav-pills .nav-link {
+    flex: 1 1 calc(50% - 8px); /* Two items per row on tablet screens */
+    font-size: 13px;
+    padding: 7px 10px;
+  }
+
+  .project-description p {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .tech-tag {
+    font-size: 13px;
+    padding: 2px 6px;
+  }
+
+  .technologies-container {
+    flex-direction: row; /* Keep inline layout */
+    gap: 6px;
+  }
+
+  .technologies-separator {
+    display: inline;
+  }
+}
+
 @media (max-width: 768px) {
   .project {
     padding: 60px 10px; /* Adjust padding for mobile screens */
@@ -814,21 +1427,118 @@ span.navbar-text {
     font-size: 14px; /* Smaller font size for mobile */
   }
 
-  .proj-txtx h4 {
-    font-size: 18px; /* Adjusted font size */
-  }
-
-  .proj-txtx span {
-    font-size: 12px; /* Adjusted font size */
+  .project .nav-pills {
+    width: 100%;
+    padding: 8px;
   }
 
   .project .nav-pills .nav-link {
     flex: 1 1 100%; /* Each tab takes full width on smaller screens */
-    margin: 5px 0; /* Add vertical margin for better spacing */
+    margin: 3px 0; /* Add vertical margin for better spacing */
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+
+  .project-header {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .time-period {
+    font-size: 16px;
+  }
+
+  .project-location {
+    font-size: 13px;
+  }
+
+  .project-description p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .technologies-title {
+    font-size: 15px;
+  }
+
+  .tech-tag {
+    font-size: 12px;
+    padding: 2px 6px;
+  }
+
+  /* Stack technologies on mobile for better readability */
+  .technologies-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .technologies-separator {
+    display: none;
+  }
+
+  .technologies-list {
+    justify-content: flex-start;
+  }
+
+  .proj-txtx {
+    padding: 15px; /* Reduce padding on mobile */
+  }
+
+  .proj-txtx h4 {
+    font-size: 16px; /* Adjusted font size */
+  }
+
+  .proj-txtx span {
+    font-size: 11px; /* Adjusted font size */
+  }
+
+  .proj-video {
+    height: 200px; /* Reduce video height on mobile */
   }
 
   .background-image-right {
     width: 25%; /* Further reduce for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .time-period {
+    font-size: 14px;
+  }
+
+  .project-location {
+    font-size: 12px;
+  }
+
+  .project-description p {
+    font-size: 13px;
+    line-height: 1.5; /* Slightly reduced */
+    text-align: left;
+  }
+
+  .technologies-title {
+    font-size: 14px;
+  }
+
+  .tech-tag {
+    font-size: 11px;
+    padding: 2px 5px;
+    margin: 1px;
+  }
+
+  .proj-txtx h4 {
+    font-size: 14px;
+  }
+
+  .proj-txtx span {
+    font-size: 10px;
+  }
+
+  .proj-video {
+    height: 180px; /* Further reduce video height on very small screens */
   }
 }
 

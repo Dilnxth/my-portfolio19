@@ -50,7 +50,7 @@ export const Footer = () => {
         {/* Copyright Section */}
         <Row>
           <Col xs={12}>
-            <p className="footer-copyright">© 2024. All Rights Reserved.</p>
+            <p className="footer-copyright">© 2025. All Rights Reserved.</p>
           </Col>
         </Row>
       </Container>

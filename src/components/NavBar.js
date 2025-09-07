@@ -11,6 +11,7 @@ export const NavBar = () => {
     // Define offsets for each section
     const sectionOffsets = {
         home: 0,
+        experience: -120,
         education: -150,
         skills: -250,
         projects: -120,
@@ -72,6 +73,15 @@ export const NavBar = () => {
                             className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}
                         >
                             Home
+                        </Nav.Link>
+                        <Nav.Link
+                            onClick={() => {
+                                onNavigate('experience');
+                                handleToggle();
+                            }}
+                            className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'}
+                        >
+                            Work Experience
                         </Nav.Link>
                         <Nav.Link
                             onClick={() => {

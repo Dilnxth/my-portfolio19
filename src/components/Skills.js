@@ -16,6 +16,7 @@ import MV from "../assets/img/MV.png";
 import ML from "../assets/img/ML.png";
 import Node_Red from "../assets/img/Node Red.png";
 import RoboDK from "../assets/img/RoboDK.png";
+import VC from "../assets/img/VC.png";
 
 
 // Custom Left Arrow
@@ -100,6 +101,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={python} alt="Python" />
                   <h5>Python</h5>
+                </div>
+                <div className="item">
+                  <img src={VC} alt="Visual Components " />
+                  <h5>Visual Components</h5>
                 </div>
                 <div className="item">
                   <img src={RoboDK} alt="Robo DK" />
