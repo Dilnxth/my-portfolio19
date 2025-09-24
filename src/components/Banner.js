@@ -71,7 +71,7 @@ export const Banner = () => {
                     <span className="wrap">{text}</span>
                   </span>
                 </h1>
-                <p>I am a final-year Mechatronics Engineering student specializing in Robotics and Automation Engineering. With a strong foundation in robotics programming, automation systems, machine vision, IoT, and mechanical design, I enjoy building solutions that are both innovative and practical. Through internships and projects, I have gained hands-on experience in designing, programming, and integrating advanced systems, always with a focus on efficiency, reliability, and continuous improvement. Passionate about engineering and problem-solving, I am driven to apply my skills to create meaningful solutions that add value across industries.</p>
+                <p>I am a final year Mechatronics Engineering student specializing in Robotics and Automation Engineering. With a strong foundation in robotics programming, automation systems, machine vision, IoT and mechanical design, I enjoy building solutions that are both innovative and practical. Through internships and projects, I have gained hands-on experience in designing, programming and integrating advanced systems, always with a focus on efficiency, reliability and continuous improvement. Passionate about engineering and problem-solving, I am driven to apply my skills to create meaningful solutions that add value across industries.</p>
                 <button onClick={handleContactClick}>Connect with Me <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
