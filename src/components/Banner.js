@@ -71,7 +71,7 @@ export const Banner = () => {
                     <span className="wrap">{text}</span>
                   </span>
                 </h1>
-                <p>I am a third-year Mechatronics Engineering student at SAMK (Satakunta University of Applied Sciences) in Finland, with a focus on robotics, automation and the seamless integration of mechanical systems, electronics and software. Driven by a passion for innovation, I excel in developing efficient and forward-thinking solutions to complex engineering challenges. My primary interests lie in robotics, product development and system optimization, where I aim to contribute to advancements in smart technologies and sustainable engineering practices. With a commitment to excellence, I strive to make a meaningful impact on the future of technology and automation.</p>
+                <p>I am a final-year Mechatronics Engineering student specializing in Robotics and Automation Engineering. With a strong foundation in robotics programming, automation systems, machine vision, IoT, and mechanical design, I enjoy building solutions that are both innovative and practical. Through internships and projects, I have gained hands-on experience in designing, programming, and integrating advanced systems, always with a focus on efficiency, reliability, and continuous improvement. Passionate about engineering and problem-solving, I am driven to apply my skills to create meaningful solutions that add value across industries.</p>
                 <button onClick={handleContactClick}>Connect with Me <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
